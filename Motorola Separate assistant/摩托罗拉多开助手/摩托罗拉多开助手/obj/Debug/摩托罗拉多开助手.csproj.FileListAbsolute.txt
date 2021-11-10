@@ -1,0 +1,14 @@
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\bin\Debug\摩托罗拉多开助手.exe.config
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\bin\Debug\摩托罗拉多开助手.exe
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\bin\Debug\摩托罗拉多开助手.pdb
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.csproj.AssemblyReference.cache
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.Form1.resources
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.Properties.Resources.resources
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.csproj.GenerateResource.cache
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.csproj.CoreCompileInputs.cache
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.exe
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.pdb
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\bin\Debug\MediaDevices.dll
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\bin\Debug\MediaDevices.pdb
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\bin\Debug\MediaDevices.xml
+C:\Users\IM\source\repos\摩托罗拉多开助手\摩托罗拉多开助手\obj\Debug\摩托罗拉多开助手.csproj.CopyComplete

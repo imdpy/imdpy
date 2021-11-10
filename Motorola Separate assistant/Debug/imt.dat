@@ -1,0 +1,1 @@
+adb shell pm install -r --user 903 /data/app/~~E03kyDfTscEUfqTiI_qNuA==/com.tencent.mobileqq-4HBQDhJjES80grZwEfrOSA==/base.apk
