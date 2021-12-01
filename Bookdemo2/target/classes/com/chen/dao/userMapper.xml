@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chen.dao.userMapper">
+    <insert id="adduser" parameterType="com.chen.pojo.user">
+        insert into ssmbuild.user (name, pwd)
+        value (#{name},#{pwd});
+    </insert>
+    <select id="queryuser" resultType="com.chen.pojo.user">
+        select * from ssmbuild.user where name = #{userId};
+    </select>
+    <select id="queryalluser" resultType="com.chen.pojo.user">
+        select * from ssmbuild.user;
+    </select>
+    <delete id="deleteuserByid" parameterType="int">
+        delete from ssmbuild.user where id = #{id}
+    </delete>
+    <update id="update" parameterType="user">
+        update ssmbuild.user set name = #{name},pwd = #{pwd}
+        where id = #{id};
+    </update>
+</mapper>

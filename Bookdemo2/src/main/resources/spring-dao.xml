@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置整合mybatis -->
+    <!-- 1.关联数据库文件 -->
+    <context:property-placeholder location="classpath:database.properties"/>
+    <!-- 连接池
+    dbcp 半自动化操作 不能自动连接
+    c3p0 自动化操作（自动的加载配置文件 并且设置到对象里面）
+    -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+     </bean>
+
+    <!-- 3.配置SqlSessionFactory对象 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <property name="dataSource" ref = "dataSource"/>
+        <!--绑定Mybatis配置文件 -->
+        <property name="configLocation" value="classpath:Mybatis-config.xml"/>
+    </bean>
+    <!-- 4.配置扫描Dao接口包，动态实现Dao接口注入到spring容器中 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 注入sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!-- 给出需要扫描Dao接口包 -->
+        <property name="basePackage" value="com.chen.dao"/>
+    </bean>
+    <!-- 配置dao接口扫描包，动态的实现了Dao接口可以注入到Spring容器中! -->
+    <bean id="userService" class="com.chen.service.userServiceImpl" ></bean>
+    <bean id="user" class="com.chen.pojo.user" ></bean>
+    <bean id="activity" class="com.chen.pojo.activity" ></bean>
+    <bean id="activityService" class="com.chen.service.activitySeviceImpl" ></bean>
+    <bean id="orderService" class="com.chen.service.orderServiceImpl" ></bean>
+    <bean id="order" class="com.chen.pojo.order" ></bean>
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 注入sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!-- 要扫描的Dao包 -->
+        <property name="basePackage" value="com.chen.dao"/>
+    </bean>
+    </beans>

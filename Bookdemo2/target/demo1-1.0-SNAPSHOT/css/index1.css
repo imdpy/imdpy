@@ -1,0 +1,92 @@
+/*第一部分：Logo部分*/
+.header{
+    width: 100%;
+}
+.header div{
+    /*左浮动*/
+    float: left;
+    width: 33.3%;
+    height:75px;
+    /*行高*/
+    line-height:50px;
+}
+/*a标签*/
+/*控制Logo部分的a标签*/
+.header a{
+    color: #000;/*颜色*/
+}
+a{
+    font-size: 17px;/*字体*/
+    padding:10px;/*控制内边距*/
+    text-decoration: none;/*去掉超链接的下划线*/
+}
+/*第二部分：导航栏部分*/
+/*清除浮动*/
+.clear{
+    clear:both;
+}
+.menu{
+    width:100%;
+    background-color: #000;
+    height:50px;
+    padding-top:1px;
+}
+.menu ul li{
+    /*去掉标记*/
+    list-style-type: none;
+    /*元素设为同一行*/
+    display: inline;
+}
+.menu a{
+    color:#FFF;
+}
+/*第三部分：轮播图*/
+.img1{
+    height: 65%;
+    width:100%;
+}
+.img1 img{
+    width:100%;
+}
+/*第四部分+第六部分：最新+热门商品*/
+.hot{
+    height:50px;
+    padding-top:10px;
+}
+/*左边大图*/
+.left{
+    float:left;
+    width:16%;
+    height: 500px;
+}
+.right{
+    float:left;
+    width:84%;
+    text-align:center;
+    height: 500px;
+}
+.middle{
+    float:left;
+    width: 50%;
+    height:250px;
+}
+.item{
+    float:left;
+    width: 16.6%;
+    height:250px;
+}
+/*第五+七部分:广告图片+正品保证*/
+.adv{
+    width:100%;
+}
+/*第八部分:页脚部分*/
+.foot{
+    width:100%;
+}
+.foot p{
+    text-align: center;
+}
+.dlan{
+    height: 800px;
+    width:100%;
+}

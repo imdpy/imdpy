@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chen.dao.activityMapper">
+    <select id="queryactivity" resultType="com.chen.pojo.activity">
+        select * from ssmbuild.activity;
+    </select>
+    <select id="update" resultType="com.chen.pojo.activity">
+        update ssmbuild.activity set activity = #{activity},picaddr = #{picaddr}
+        where id = #{id};
+    </select>
+</mapper>
