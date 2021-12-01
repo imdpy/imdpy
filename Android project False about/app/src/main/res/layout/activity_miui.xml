@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".miui"
+    android:background="@color/white"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:src="@drawable/miuihead"
+    android:textSize="30dp"
+    android:layout_height="150dp"
+    />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:background="@drawable/miuixh"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="120dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="小米10"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="12         "
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="100dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="6.67英寸"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="2400X1080"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="100dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="4700mAh"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="高通骁龙865"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="100dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="前置 20M\n后置 64M+18M+20M"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/miuibb"
+                >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   >
+                   <EditText
+                       android:paddingRight="20dp"
+                       android:paddingLeft="30dp"
+                       android:paddingTop="55dp"
+                       android:layout_weight="1"
+                       android:layout_width="wrap_content"
+                       android:background="#50FFFFFF"
+                       android:text="10"
+                       android:layout_height="wrap_content"
+                       />
+               </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/miuibb1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:paddingLeft="30dp"
+                        android:paddingTop="50dp"
+                        android:textSize="20dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="安卓安全补丁\n版本"
+                        />
+                    <TextView
+                        android:paddingLeft="30dp"
+                        android:paddingTop="50dp"
+                        android:textSize="20dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MIUI版本    \t\t"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    >
+
+                    <EditText
+
+
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="2020-11-1"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+                        />
+                    <EditText
+
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="    MIUI 12.0.3"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:textColor="#A9A9A9"
+                    android:background="@color/white"
+                    android:text="修改完成点我即可不影响其他区域截图" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

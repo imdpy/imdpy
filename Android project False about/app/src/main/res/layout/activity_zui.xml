@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zui"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+   android:src="@drawable/zuihead"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:background="@drawable/zuimain"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+        <EditText
+
+            android:paddingTop="100dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="ZUK Z2131" />
+        <EditText
+
+            android:paddingTop="50dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="高通骁龙821" />
+        <EditText
+
+            android:paddingTop="50dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="128GB" />
+        <EditText
+
+            android:paddingTop="70dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="4GB" />
+        <EditText
+
+            android:paddingTop="50dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="3.5开发板" />
+        <EditText
+
+            android:paddingTop="50dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="8" />
+        <EditText
+
+            android:paddingTop="50dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="2017-2-3" />
+        <EditText
+
+            android:paddingTop="55dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:background="#50FFFFFF"
+            android:textColor="#A9A9A9"
+            android:text="2323232-515-32-15-342" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="12sp"
+            android:gravity="center|bottom"
+            android:textColor="#A9A9A9"
+            android:background="@color/white"
+            android:text="修改完成点我即可不影响其他区域截图" />
+    </LinearLayout>
+
+</LinearLayout>

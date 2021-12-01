@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".color"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/colorhead"
+        android:textSize="30dp"
+        android:layout_height="90dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\n"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:background="@drawable/colormain"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="66dp"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="OPPO R15"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="基带、内核 "
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="66dp"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="V7.1      "
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="10        "
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="77dp"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="八核    "
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="6.00GB"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="88dp"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="128GB（总共）"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="用户使用协议 "
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="77dp"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="CMIIT ID"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="PACM00"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:paddingTop="66dp"
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="中国移动"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:background="#50FFFFFF"
+                        android:text="IMEI、IP"
+                        android:layout_height="wrap_content"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:textColor="#A9A9A9"
+                    android:background="@color/white"
+                    android:text="修改完成点我即可不影响其他区域截图" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

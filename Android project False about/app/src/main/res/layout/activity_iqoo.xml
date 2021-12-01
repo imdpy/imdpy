@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iqoo"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+      android:src="@drawable/iqoohead"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+
+            android:orientation="vertical">
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="700dp"
+            android:background="@drawable/iqoomain"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="40dp"
+
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:background="#50FFFFFF"
+                    android:paddingTop="140dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          10"
+                    />
+                <EditText
+                    android:background="#50FFFFFF"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   天玑1000+   "
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="40dp"
+
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    />
+                <EditText
+                    android:background="#50FFFFFF"
+
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="          12"
+                    />
+                <EditText
+                    android:background="#50FFFFFF"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="     128G   "
+                    />
+
+            </LinearLayout>
+            <EditText
+                android:background="#50FFFFFF"
+
+                android:layout_width="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="     iQOO Z1   "
+                />
+            <EditText
+                android:background="#50FFFFFF"
+                android:paddingTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text="     iQOO Z1   "
+                />
+
+        </LinearLayout>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="12sp"
+                android:gravity="right|bottom"
+                android:textColor="#A9A9A9"
+                android:background="@color/white"
+                android:text="修改完成点我即可不影响其他区域截图" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

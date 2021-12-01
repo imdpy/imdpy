@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.im.jdgy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jdgyico"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/jdgyico"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name=".pe"></activity>
+        <activity android:name=".iqoo" />
+        <activity android:name=".zui" />
+        <activity android:name=".emui" />
+        <activity android:name=".gd" />
+        <activity android:name=".win10" />
+        <activity android:name=".flyme" />
+        <activity android:name=".magic" />
+        <activity android:name=".color" />
+        <activity android:name=".miui" />
+        <activity android:name=".ios" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
